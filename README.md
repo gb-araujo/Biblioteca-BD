@@ -7,6 +7,7 @@
 Nesta atividade, foram realizadas várias etapas para reorganizar e normalizar um banco de dados chamado Biblioteca, que armazena informações sobre livros. Explicação de cada etapa:
 <h2> 1 - Etapa</h2>
 Adicionando a regra AUTO_INCREMENT para a chave primária e removendo dados referentes ao ID dos livros:
+
 ```
 CREATE TABLE IF NOT EXISTS Livros (
     livros_id INT PRIMARY KEY AUTO_INCREMENT,
